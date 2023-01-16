@@ -99,9 +99,9 @@ simpleToaster.create("Important Title", "This is an important text");
 ```javascript
 advancedToaster.create("Important Title", "This is an important text", {
     type: ToasterType.DANGER,
-    timer = ToasterTimer.COUNTDOWN,
-    delay = 10000,
-    animation = false,
+    timer : ToasterTimer.COUNTDOWN,
+    delay : 10000,
+    animation : false,
 });
 ```
 
